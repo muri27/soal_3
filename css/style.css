@@ -1,0 +1,141 @@
+/*
+Author : Muhammad Rifki
+Type : CSS
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto";
+
+}
+
+nav {
+	background-color: #F9F9F9;
+	width: 1440px;
+	height: 86px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 24px;
+}
+
+nav ul li {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+}
+
+div img{
+	position: absolute;
+	width: 286px;
+	height: 286px;
+	left: 56px;
+	top: 56px;
+
+	background: #DDDDDD;
+	border-radius: 8px;
+
+}
+
+.box{
+	position: absolute;
+	width: 398px;
+	height: 612px;
+	left: 512px;
+	top: 126px;
+
+	border:1px solid #DDDDDD;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.nama{
+	top: 374px;
+	left: 56px;
+	width: 286px;
+	height: 38px;
+	position: absolute;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+}
+
+.prodi{
+	position: absolute;
+	width: 286px;
+	height: 28px;
+	left: 56px;
+	top: 428px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.univ{
+	position: absolute;
+	width: 286px;
+	height: 19px;
+	left: 56px;
+	top: 472px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+	text-align: center;
+	text-decoration-line: underline;
+
+}
+
+.moto{
+	position: absolute;
+	width: 286px;
+	height: 19px;
+	left: 56px;
+	top: 507px;
+
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+	text-align: center;
+
+}
+
+.copyright{
+	position: absolute;
+	width: 286px;
+	height: 14px;
+	left: 56px;
+	top: 542px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+
+	text-align: center;
+
+}
